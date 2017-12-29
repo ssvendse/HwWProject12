@@ -20,6 +20,8 @@
 		02A7BBF11FF5F85C00B982B1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7BBF01FF5F85C00B982B1 /* ExtensionDelegate.swift */; };
 		02A7BBF31FF5F85C00B982B1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7BBF21FF5F85C00B982B1 /* ComplicationController.swift */; };
 		02A7BBF51FF5F85C00B982B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A7BBF41FF5F85C00B982B1 /* Assets.xcassets */; };
+		02A7BC051FF5FFE100B982B1 /* SharedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7BC041FF5FFE100B982B1 /* SharedCode.swift */; };
+		02A7BC061FF5FFE100B982B1 /* SharedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7BC041FF5FFE100B982B1 /* SharedCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,7 @@
 		02A7BBF21FF5F85C00B982B1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		02A7BBF41FF5F85C00B982B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02A7BBF61FF5F85C00B982B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A7BC041FF5FFE100B982B1 /* SharedCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 		02A7BBCA1FF5F85B00B982B1 /* HwWProject12 */ = {
 			isa = PBXGroup;
 			children = (
+				02A7BC041FF5FFE100B982B1 /* SharedCode.swift */,
 				02A7BBCB1FF5F85B00B982B1 /* AppDelegate.swift */,
 				02A7BBCD1FF5F85B00B982B1 /* ViewController.swift */,
 				02A7BBCF1FF5F85B00B982B1 /* Main.storyboard */,
@@ -292,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A7BC051FF5FFE100B982B1 /* SharedCode.swift in Sources */,
 				02A7BBCE1FF5F85B00B982B1 /* ViewController.swift in Sources */,
 				02A7BBCC1FF5F85B00B982B1 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A7BBF11FF5F85C00B982B1 /* ExtensionDelegate.swift in Sources */,
+				02A7BC061FF5FFE100B982B1 /* SharedCode.swift in Sources */,
 				02A7BBEF1FF5F85C00B982B1 /* InterfaceController.swift in Sources */,
 				02A7BBF31FF5F85C00B982B1 /* ComplicationController.swift in Sources */,
 			);
